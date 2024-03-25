@@ -14,6 +14,13 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
     <title>Portifólio Gabriel Lins</title>
 </head>
 
@@ -30,7 +37,7 @@
 
                     <li><a href="#sobre" class="nav__link">Sobre</a></li>
                     
-                    <li><a href="#portifolio" class="nav__link">Projetos</a></li>
+                    <li><a href="#projetos" class="nav__link">Projetos</a></li>
                     
                     <li><a href="#serviços" class="nav__link">Serviços</a></li>
 
@@ -183,6 +190,7 @@
                                            Além disso, minha proficiência avançada em inglês foi crucial durante os momentos em que interagi com convidados e espectadores estrangeiros. Através do idioma, envolvi-me em conversas com eles e os recepcionei da melhor forma possível no evento, especialmente no Porto Cinema, o local onde eu estava trabalhando.
                                         </span>
                                 </p>
+
                             </div>
                         </div>
 
@@ -317,87 +325,97 @@
         </section>
 
         <!-- Projetos -->
-        <section class="portifolio section" id="portifolio">
-            <h2 class="section__titulo"> Meus projetos recentes </h2>
-            <p class="section__description"> Aqui estão todos os projetos que desenvolvi contendo informações
-                                             das tecnologias utilizadas e os respectivos repositórios do Github
-            </p>
+        <section class="projetos section" id="projetos">
+            <h2 class="section__titulo">Projetos</h2>
+            <p class="section__description">Estes são os principais projetos que Desenvolvi, individualmente ou em Grupos</p>
+        
+            <div class="uk-slider-container-offset" uk-slider>
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
 
-            <div class="portifolio__container container grid">
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/1.PNG" alt="" class="portifolio__img" />
+                        <!--Primeiro Card-->
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <a href="https://projeto-dashboard-inep.vercel.app/">
+                                        <img src="img/Dashboard.png" width="1800" height="1200" alt="">
+                                    </a>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Dashboard INEP </h3>
+                                    <p>O Dashboard de Gestão Educacional 2022 é uma ferramenta inovadora baseada em dados do INEP, que oferece uma visão clara e unificada da educação básica no Brasil. Permite o acompanhamento eficaz das escolas e alunos em todo o país, promovendo uma gestão educacional mais eficiente e contribuindo para a excelência na educação brasileira.</p>
+                                    <p>Link do Site: <a href="https://projeto-dashboard-inep.vercel.app/">Site</a></p>
+                                    <p>Acesse os Códigos do projeto: 
+                                        <a href="https://github.com/gabrielhilins/Dashboard-Inep---Servidor">Código Github</a>
+                                    </p>
+        
+                                    <div class="tecnologias">
+                                        <p>Tecnologias Utilizadas:</p>
+                                        <img src="img/html5-original.svg" alt="">
+                                        <img src="img/css3-original.svg" alt="">
+                                        <img src="img/express-original.svg" alt="">
+        
+                                        <div class="tecnologias">
+                                            <img src="img/javascript-original.svg" alt="">
+                                            <img src="img/postgresql-plain-wordmark.svg" alt="">
+                                            <img src="img/nodejs-original-wordmark.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description">
-                            Lorem ipson dolor sit amet
-                        </p>
-                    </div>
+                        <!--Segundo Card-->
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <a href="https://github.com/gabrielhilins/POO-Java">
+                                        <img src="img/POO.png" width="1800" height="1200" alt="">
+                                    </a>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">Programação Orientada à Objetos com Java </h3>
+                                    <p>Este repositório Java é um tesouro de programas que exploram os pilares da Programação Orientada a Objetos, com foco especial em três áreas fundamentais: Encapsulamento, Métodos e Classes e Objetos. Ao examinar projetos como o "Sistema de Gerenciamento de Carros", os usuários podem mergulhar em um mundo de interações intuitivas, onde podem cadastrar, remover, listar e consultar informações sobre carros de forma eficiente. O "Banco Digital Simples" oferece uma experiência bancária simplificada, permitindo que os clientes realizem operações comuns, como depósitos, saques e transferências, através de métodos claros e concisos. Enquanto isso, o "Gerenciador de Estoque" simplifica a gestão de inventário para pequenos armazéns, fornecendo métodos robustos para adicionar, remover e atualizar produtos. Com esses projetos, não apenas demonstramos domínio em Java, mas também destacamos nossa capacidade de criar soluções práticas e eficazes para desafios do mundo real.</p>
+                                    <p>Acesse os Códigos do projeto: 
+                                        <a href="https://github.com/gabrielhilins/POO-Java">Código Github</a>
+                                    </p>
+        
+                                    <div class="tecnologias">
+                                        <p>Tecnologias Utilizadas:</p>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" /> 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Terceiro Card-->
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <a href="https://www.figma.com/proto/BMgQQZCjrO3MEqqWg3mYnK/CaremindEdu?type=design&node-id=1-2&t=Fr8BTs7qyt9fwqD3-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2">
+                                        <img src="img/CaremindEdu.jpeg" width="1800" height="1200" alt="">
+                                    </a>
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">CareMind Edu </h3>
+                                    <p>O Caremind Edu é um aplicativo desenvolvido pelo Squad 10 da Residencia de Software KickOff do Porto Digial 2023.1. Este inovador app visa cuidar do bem-estar físico e mental dos educadores, oferecendo atividades diárias de autocuidado e acesso a conteúdos informativos relevantes. Com uma abordagem gamificada, os usuários acumulam pontos ao completar tarefas, desbloqueando artigos que visam otimizar sua vida profissional e pessoal. Além disso, o aplicativo permite o acesso direto a psicólogos, facilitando o agendamento de sessões e o compartilhamento de preocupações com profissionais especializados. Essa iniciativa visa aliviar o estresse e a pressão enfrentados pelos educadores, proporcionando um ambiente de apoio e cuidado.</p>
+                                    <p>Link do Protótipo: <a href="https://projeto-dashboard-inep.vercel.app/">Protótipo de Alta Fidelidade</a></p>
+                                    <div class="tecnologias">
+                                        <p>Tecnologias Utilizadas:</p>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </li>
+        
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
                 </div>
-
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/portfolio-2.jpg" alt="" class="portifolio__img" />
-
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description"> Lorem ipson dolor sit amet
-                        </p>
-                    </div>
-                </div>
-
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/portfolio-2.jpg" alt="" class="portifolio__img" />
-
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description"> Lorem ipson dolor sit amet
-                        </p>
-                    </div>
-                </div>
-
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/portfolio-4.jpg" alt="" class="portifolio__img" />
-
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description"> Lorem ipson dolor sit amet
-                        </p>
-                    </div>
-                </div>
-
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/portfolio-1.jpg" alt="" class="portifolio__img" />
-
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description"> Lorem ipson dolor sit amet
-                        </p>
-                    </div>
-                </div>
-
-                <div class="portifolio__item">
-                    <div class="mascara-off"></div>
-                    <img src="img/portfolio-6.jpg" alt="" class="portifolio__img" />
-
-                    <div class="portifolio__data">
-                        <p class="portifolio__subtitle"> Programador </p>
-                        <h3 class="portifolio__title"> Web Design </h3>
-                        <p class="portifolio__description"> Lorem ipson dolor sit amet
-                        </p>
-                    </div>
-                </div>
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
             </div>
-        </section>
+        </section>        
 
         <!-- Contato -->
         <section class="contato section" id="contato">
