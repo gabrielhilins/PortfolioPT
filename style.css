@@ -503,6 +503,9 @@ section {
     .uk-slidenav-next {
         top: calc(50% - 20px); /* Posicionamento vertical das setas */
     }
+    .uk-card {
+        width: 300px; /* Defina a largura desejada para telas menores */
+    }
 }
 
 /* Contato */
